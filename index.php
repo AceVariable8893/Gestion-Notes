@@ -45,15 +45,15 @@ $eleves = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <h3>Formulaire</h3>
 <form method="POST" action="index.php">
     <label>Nom :
-        <input type="text" name="nom" required>
+        <input type="text" name="nom" style="border-radius: 20px;" required>
     </label>
     <br><br>
     <label>Matière :
-        <input type="text" name="matiere" required>
+        <input type="text" name="matiere" style="border-radius: 20px;" required>
     </label>
     <br><br>
-    <label>Note (sur 20) :
-        <input type="number" name="note" min="0" max="20" step="0.01" required>
+    <label>Note (sur 20) : 
+        <input type="number" name="note" min="0" max="20" step="0.01" style="border-radius: 20px;" required>
     </label>
     <br><br>
     <button type="submit">Ajouter</button>
