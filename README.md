@@ -4,7 +4,7 @@ table eleves (nom, matière, note), affichage de toutes les notes, formulaire d'
 
 ## Lignes de commande pour la création de la table SQL
 
-
+```sql
 CREATE DATABASE IF NOT EXISTS gestion_notes; 
 USE gestion_notes; 
 CREATE TABLE eleves (
@@ -13,3 +13,4 @@ nom VARCHAR(50) NOT NULL,
 matiere VARCHAR(50), 
 note DECIMAL(4,2) 
 );
+```
